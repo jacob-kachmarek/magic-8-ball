@@ -14,6 +14,12 @@
         <script type="module" src="app.js"></script>
 
         <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap"
+            rel="stylesheet"
+        />
         <!-- see https://fonts.google.com/ -->
 
         <!-- css -->
@@ -29,16 +35,16 @@
         </header>
 
         <main>
-            <h1>The 8 Ball Experience</h1>
+            <h1 class="center">The 8 Ball Experience</h1>
             <section id="prompt" class="prompt">
-                <p>What is to be your fortune?</p>
+                <p class="question">What is to be your fortune?</p>
                 <input class="input" type="text" placeholder="ask question here" />
                 <button id="submit-button" class="button">Don't be scared</button>
             </section>
             <section id="fortune" class="fortune hide">
-                <img src="./assets/8-ball.png" />
-                <p id="answer"></p>
-                <button id="re-roll" class="button">Re-Roll</button>
+                <img class="image" src="assets/billiards-127_512.gif" />
+                <p class="center" id="answer"></p>
+                <button id="re-roll" class="center" class="button">Re-Roll</button>
             </section>
         </main>
     </body>

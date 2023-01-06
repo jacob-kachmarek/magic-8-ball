@@ -31,7 +31,53 @@ header .logo {
 }
 
 main {
-    padding: 20px;
+    padding: 150px;
+}
+
+main {
+    background-image: url(../assets/light-803_512.gif);
+    background-size: cover;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question {
+    font-size: 30px;
+}
+
+.prompt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 400px;
+    width: 575px;
+    padding-left: 175px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+#answer {
+    font-size: 50px;
+    padding-top: 0%;
+    font-family: Unbounded;
+    text-shadow: 5px 10px white;
+}
+
+#re-roll {
+    display: grid;
+    margin: auto;
 }
 
 .hide {
