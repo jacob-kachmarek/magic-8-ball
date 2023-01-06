@@ -35,8 +35,12 @@ main {
 }
 
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(../assets/light-803_512.gif);
     background-size: cover;
+    padding: 140px;
 }
 
 .center {
@@ -48,12 +52,6 @@ main {
     font-size: 30px;
 }
 
-.prompt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .input {
     display: flex;
     justify-content: center;
@@ -63,9 +61,6 @@ main {
 .image {
     height: 400px;
     width: 575px;
-    padding-left: 175px;
-    padding-top: 0px;
-    margin-bottom: 0px;
 }
 
 #answer {
