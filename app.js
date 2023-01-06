@@ -21,6 +21,11 @@ reBtn.addEventListener('click', () => {
     toggleSections();
 });
 
+function toggleSections() {
+    promptBtn.classList.toggle('hide');
+    fortuneSection.classList.toggle('hide');
+}
+
 const answers = [
     'Yes, definitely',
     'It is certain',
